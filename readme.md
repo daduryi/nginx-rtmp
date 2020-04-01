@@ -20,4 +20,6 @@
 
     mac使用iina软件正常.
     vlc拖动进度有问题. 
-    浏览器需要使用flask rtmp_demo, 未调通.
+    浏览器需要使用flash未调通. (rtmp_demo/ 或者 rtmp_test.html)
+
+### 直播大都将rtmp迁移为webrtc. 个平台兼容性更好
