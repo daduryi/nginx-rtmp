@@ -22,4 +22,4 @@
     vlc拖动进度有问题. 
     浏览器需要使用flash未调通. (rtmp_demo/ 或者 rtmp_test.html)
 
-### 直播大都将rtmp迁移为webrtc. 个平台兼容性更好
+### 直播大都将rtmp迁移为webrtc. 各平台兼容性更好
