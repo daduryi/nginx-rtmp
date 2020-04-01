@@ -6,7 +6,7 @@
 
 ### 编译安装nginx rtmp插件
 
-    Dockerfile
+    docker build -t nginx-rtmp .
 
 ### 配置nginx rtmp
 
