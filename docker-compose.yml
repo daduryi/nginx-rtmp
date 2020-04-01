@@ -1,0 +1,16 @@
+version: "3"
+services:
+  nginx:
+    restart: always
+    container_name: docker-nginx
+    image: nginx-rtmp
+    ports:
+      - "80:80"
+      - "443:443"
+      - "1935:1935"
+    hostname: docker-nginx
+    volumes:
+      - './nginx.conf:/etc/nginx/nginx.conf'
+      - '.:/nginx-rtmp'
+    extra_hosts:
+      - "local.com:192.168.0.77"
