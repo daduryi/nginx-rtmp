@@ -23,3 +23,8 @@
     浏览器需要使用flash未调通. (rtmp_demo/ 或者 rtmp_test.html)
 
 ### 直播大都将rtmp迁移为webrtc. 各平台兼容性更好
+
+
+### log
+
+2020-05-08 增加 --add-module=/tmp/echo-nginx-module-0.61
