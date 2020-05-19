@@ -1,4 +1,8 @@
-# rtmp协议流媒体
+# 自定义nginx
+
+## 集成模块
+
+rtmp, echo, lua
 
 ## VOD视频点播
 
@@ -24,7 +28,9 @@
 
 ### 直播大都将rtmp迁移为webrtc. 各平台兼容性更好
 
+## log
 
-### log
+2020-05-18 增加  --add-module=/tmp/ngx_devel_kit
+                --add-module=/tmp/lua-nginx-module
 
-2020-05-08 增加 --add-module=/tmp/echo-nginx-module-0.61
+2020-05-18 增加 --add-module=/tmp/echo-nginx-module-0.61
